@@ -1,0 +1,385 @@
+body{
+    margin : 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.announcement{
+
+    text-align : center;
+    background-color : #d6d0c6;
+    font-size : 14px;
+    padding : 8px;
+    margin-top : 0;
+
+}
+.main-header{
+    background-color : white;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    border-bottom : 1px solid  grey;
+    padding : 8px 20px;
+
+}
+.main-header a {
+    text-decoration : none;
+    color : black;
+    font-size : 14px;
+    margin-right: 20px;
+}
+.logo{
+    font-size : 22px;
+    letter-spacing : 4px;
+}
+.category-navbar{
+    text-align : center;
+    padding : 12px;
+    border : 1px solid light grey;
+}
+.category-navbar a{
+    text-decoration: none;
+    color : black;
+    font-size: 12px;
+    margin-right: 20px;
+
+
+}
+.category-navbar a.sale{
+    color : red;
+}
+.second-nav{
+    background-color : black;
+    color : white;
+    display : flex;
+    justify-content : space-between;
+    align-items: center;
+    padding : 18px 40px;
+    font-size: 14px;
+
+
+}
+.essentials{
+    font-size: 20px;
+    letter-spacing : 2px;
+}
+.men-women a{
+    color: white;
+    text-decoration : none;
+    margin-left : 25px;
+
+}
+.hero{
+    height : 600px;
+    background-image: url("images/hero.avif");
+    background-size : cover;
+    background-positon : center;
+    position: relative;
+    margin-top : 0;
+
+
+}
+
+.hero-text{
+    color : white;
+    position : absolute;
+    top : 50%;
+    left : 10%;
+    transform :translateY(-50%);
+
+    
+}
+.hero-text h1{
+    margin-bottom : 10px;
+    font-size : 25x;
+    letter-spacing : 2px;
+
+}
+.center-text{
+    text-align: center;
+}
+.hero-link{
+    display : inline-block;
+    text-decoration : none;
+    font-size : 12px;
+    text-align : center;
+    margin-top : 40px;
+    color : white;
+    margin-left : 100px;
+}
+.split-section{
+    height : 750px;
+    display : flex;
+
+}
+.split-image{
+    width : 50%;
+   background-image : url("images/hero2.avif");
+   background-size : cover;
+   background-position : center;
+
+}
+.split-text{
+    width : 50%;
+    display : flex;
+    flex-direction: column;
+    justify-content : center;
+    padding : 80px;
+
+
+}
+.split-text h2{
+    font-size : 28px;
+    letter-spacing : 2px;
+    margin-bottom : 20px;
+}
+.split-text p {
+
+    font-size: 16px;
+
+    margin-bottom: 20px;
+
+    line-height: 1.6;
+}
+.split-text a {
+    text-decoration : none;
+    font-size : 14px;
+    color : black;
+    letter-spacing : 1px;
+
+}
+.image-3{
+    background-image  :url("images/img3.avif");
+    background-size : cover;
+    background-position : center;
+    height : 100px;
+    width : 100%;
+}
+.category-row{
+    display : flex;
+    justify-content : center;
+    margin : 80px 0;
+    margin-top : 0;
+    width : 100%;
+    margin-bottom : 0;
+}
+.category img {
+    width : 140px;
+}
+.category img{
+    width : 100%;
+    display : block;
+}
+.category {
+    text-align : center;
+    flex : 1;
+    font-size : 13px;
+}
+.img-row{
+    display : flex;
+}
+.image-container{
+    width : 50%;
+    position : relative;
+
+
+}
+.image-container img{
+    width : 100%;
+    display : block;
+
+}
+.text{
+    position : absolute;
+    top : 50%;
+    left : 40px;
+    color : white;
+}
+.text h2{
+    margin-bottom : 30px;
+}
+.text p{
+    margin-bottom : 50px;
+}
+.text a {
+    text-decoration : none;
+    color : white;
+    font-size : 14px;
+}
+section{
+    margin : 0;
+}
+.img-row{
+    margin-top : 15px;
+}
+.text2 p{
+    font-weight : normal;
+    font-size : 17px;
+    color : black;
+    margin-bottom : 10px;
+    letter-spacing : 1px;
+    margin-bottom : 9px;
+
+
+}
+.text2{
+    width : 100%;
+    padding : 40px 0;
+    color  : black;
+    margin-left : 40px;
+}
+.text2 a {
+    text-decoration : none;
+    color : black;
+    font-size : 12px;
+    margin-top : 25px;
+}
+
+.img2-row {
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+}
+
+.product {
+    width: 25%;
+}
+
+.product img {
+    width: 100%;
+    display: block;
+}
+
+.product h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    letter-spacing: 0.4px;
+}
+
+.product p {
+    font-size: 13px;
+    color: gray;
+    margin-top: 5px;
+}
+.half-section {
+    display: flex;
+}
+
+.half-image {
+    width: 50%;
+}
+
+.half-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.half-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+.half-text h2{
+    font-weight : 400;
+}
+.half-text a {
+    text-decoration : none;
+    font-size: 10px;
+    color : black;
+    margin-left : 4px;
+    margin-top : 10px;
+
+}
+.social-section {
+    max-width: 1200px;
+    margin: 120px auto;
+    text-align: left;
+}
+
+.social-section h2 {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.social-section p {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.social-section p:last-child {
+    font-weight: 500;
+    color: black;
+    font-size : 10px;
+}
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+
+.footer-column h4 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.footer-column p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+
+.footer-newsletter h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    max-width: 350px;
+}
+
+
+.email-box {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+.email-box input {
+    padding: 14px;
+    border: 1px solid #ccc;
+    width: 280px;
+    outline: none;
+}
+
+
+.email-box button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    cursor: pointer;
+}
+
+
+.small-text {
+    font-size: 12px;
+    color: gray;
+    max-width: 350px;
+    line-height: 1.5;
+}
