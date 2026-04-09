@@ -74,7 +74,7 @@ body{
 }
 .hero{
     height : 600px;
-    background-image: url("images/hero.avif");
+    background-image: url("hero.avif");
     background-size : cover;
     background-positon : center;
     position: relative;
@@ -117,7 +117,7 @@ body{
 }
 .split-image{
     width : 50%;
-   background-image : url("images/hero2.avif");
+   background-image : url("hero2.avif");
    background-size : cover;
    background-position : center;
 
